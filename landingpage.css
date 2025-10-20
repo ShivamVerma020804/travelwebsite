@@ -1,0 +1,141 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgb(166, 124, 242);
+    position: sticky;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav li:hover{
+    color: rgb(199, 25, 158);
+}
+
+.nav li{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.heading{
+   
+    margin-top: 165px;
+    font-size: 40px;
+}
+.mainhead{
+    justify-content: center;
+    text-align: center;
+}
+.maintag{
+    justify-content: center;
+    text-align: center;
+}
+.completefirstpage {
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* black overlay with 50% opacity */
+        url('backgroundtrial.jpeg');  /* your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* text color for contrast */
+}
+
+.firstbutton{
+    text-align: center;
+    justify-content: center;
+}
+.insidebtn{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2); /* white with 20% opacity */
+    background-color: rgb(31, 102, 120);
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+
+}
+.insidebtn:hover{
+    color: rgb(189, 228, 129);
+}
+
+.secondpagehead{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(94, 13, 13);
+    margin-top: 35px;
+}
+
+.secondpage ul{
+    display: flex;
+    list-style: none;
+    gap: 120px;
+    margin: 42px;
+}
+
+.secondpagecontent ul{
+    display: flex;
+    gap: 180px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 42px;
+}
+
+.thirdpagehead{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 45px;
+    color: white;
+}
+
+.userreviews{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.card{
+    text-align: center;
+    /* background-color: rgb(235, 133, 8); */
+    height: 300px;
+    margin: 75px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card h3{
+    font-size: 25px;
+    color: rgb(100, 229, 180);
+}
+
+.card p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.thirdpagebackground{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* black overlay with 50% opacity */
+    url('thirdpage.jpg');  /* your background image */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white; /* text color for contrast */
+
+}
